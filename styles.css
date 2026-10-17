@@ -77,6 +77,23 @@ a.btn-roofer:hover { background: var(--accent-dark); color: #fff !important; }
 nav.main-nav a.btn-roofer { margin-left: 18px; }
 .article-cta { margin: 44px 0 8px; text-align: center; }
 
+
+a.btn-outline {
+  display: inline-block;
+  background: transparent;
+  color: var(--accent-dark) !important;
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 20px;
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+a.btn-outline:hover { background: var(--accent); color: #fff !important; }
+nav.main-nav a.btn-outline { margin-left: 12px; }
+
 /* ---------- layout ---------- */
 .wrap {
   max-width: 760px;
