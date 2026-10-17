@@ -59,6 +59,24 @@ nav.main-nav a {
 }
 nav.main-nav a:hover, nav.main-nav a.current { color: var(--accent-dark); }
 
+
+/* ---------- roofer CTA button ---------- */
+a.btn-roofer {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff !important;
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+a.btn-roofer:hover { background: var(--accent-dark); color: #fff !important; }
+nav.main-nav a.btn-roofer { margin-left: 18px; }
+.article-cta { margin: 44px 0 8px; text-align: center; }
+
 /* ---------- layout ---------- */
 .wrap {
   max-width: 760px;
